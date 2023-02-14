@@ -1,127 +1,134 @@
-body{
-    display: flex;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif; /*font used for the whole webpage*/
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif; /*font used for the whole webpage*/
 }
 
-#hero{
-    height: 343px;
-    background-image: url(hometown.jpg);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    font-weight: bold; /* styling for the hero div, made use of flexbox to center the items*/
+#hero {
+  height: 343px;
+  background-image: url("hometown.jpg");
+  background-image: linear-gradient(
+      rgba(120, 120, 120, 0.5),
+      rgba(120, 120, 120, 0.5)
+    ),
+    url("hometown.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: bold; /* styling for the hero div, made use of flexbox to center the items*/
 }
 
-#visit{
-    text-align: center;
-    background-color: #63adf2;
-    font-size: 20px;
-    border-radius: 10px;
-    padding: 0 40px 0 40px;
-    transition: 1s;
-    cursor: pointer;
+#visit {
+  text-align: center;
+  background-color: #63adf2;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 0 40px 0 40px;
+  transition: 1s;
+  cursor: pointer;
 
-    /*position: absolute;
+  /*position: absolute;
     left: 640px;
     top: 100px;
     tried using "position" function to center the divs but ended up using flexbox*/
 }
 
-#info{
-    text-align: center;
-    margin-top: 20px;
-    width: 412px;
-    background-color: #304d6d;
-    font-size: 18px;
-    border-radius: 10px;
-    padding: 0 40px 0 40px;
-    transition: 1s;
-    cursor: pointer;
+#info {
+  text-align: center;
+  margin-top: 20px;
+  width: 412px;
+  background-color: #304d6d;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 0 40px 0 40px;
+  transition: 1s;
+  cursor: pointer;
 
-    /*position: absolute;
+  /*position: absolute;
     left: 520px;
     top: 153px;
     tried using "position" function to center the divs but ended up using flexbox*/
 }
 
-#info:hover, #visit:hover{
-    transform: scale(1.2);
+#info:hover,
+#visit:hover {
+  transform: scale(1.2);
 }
 
-#hero2{
-    background-color: #b8d1e6;
-    color: #304d6d;
+#hero2 {
+  background-color: #b8d1e6;
+  color: #304d6d;
 }
 
-#top3{
-    margin: 40px 0 40px 0;
-    text-align: center;
+#top3 {
+  margin: 40px 0 40px 0;
+  text-align: center;
 }
 
-#activities-container{
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-bottom: 60px;
+#activities-container {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
-.act-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-size: cover;
-    cursor: pointer;
-    transition: 1s;
+.act-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  cursor: pointer;
+  transition: 1s;
 }
 
-#sing{
-    background-image: url("sing.jpg");
+#sing {
+  background-image: url("sing.jpg");
 }
 
-#dance{
-    background-image: url("dance.jpg");
+#dance {
+  background-image: url("dance.jpg");
 }
 
-#cook{
-    background-image: url("cook.jpg");
+#cook {
+  background-image: url("cook.jpg");
 }
 
-#sing:hover, #dance:hover, #cook:hover{
-    transform: scale(1.2);
+#sing:hover,
+#dance:hover,
+#cook:hover {
+  transform: scale(1.2);
 }
 
-#hero3{
-    background-color: #ffffff;
-    color: #ffffff;
+#hero3 {
+  background-color: #ffffff;
+  color: #ffffff;
 }
 
-.card{
-    background-color: #304d6d;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 800px;
-    height: 450px;
+.card {
+  background-color: #304d6d;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 800px;
+  height: 450px;
 
-    border-radius: 10px;
-    border-bottom: 10px solid #1a2a3c;
-    border-top: 10px solid #1a2a3c;
-    margin: 100px auto 100px auto;
+  border-radius: 10px;
+  border-bottom: 10px solid #1a2a3c;
+  border-top: 10px solid #1a2a3c;
+  margin: 100px auto 100px auto;
 }
 
-#guide-img{
-    height: 400px;
-    width: 400px;
-    border-radius: 10px;
-    background-image: url("guide.jfif");
-    background-size: cover;
+#guide-img {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  background-image: url("guide.jfif");
+  background-size: cover;
 }
 
-.txt{
-    width: 300px;
+.txt {
+  width: 300px;
 }
-
